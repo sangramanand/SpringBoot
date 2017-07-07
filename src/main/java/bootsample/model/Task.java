@@ -23,10 +23,9 @@ public class Task {
 	private boolean finished;
 	
 	public Task() {
-		super();
+		this.dateCreated = new Date();
 	}
 	public Task(String name, String description, Date dateCreated, boolean finished) {
-		super();
 		this.name = name;
 		this.description = description;
 		this.dateCreated = dateCreated;
